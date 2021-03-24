@@ -1,0 +1,15 @@
+.flex-container{
+    background: gold;
+    border-radius: 4px;
+    /* display: inline-flex; */
+    display: flex;
+}
+
+.flex-item{
+    padding: 20px;
+    background-color: #fff;
+    font-family: serif;
+    font-size: 20px;
+    margin: 3px;
+    text-align: center;
+}
