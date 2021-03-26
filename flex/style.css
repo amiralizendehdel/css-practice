@@ -1,0 +1,49 @@
+/*  =====  Base classes ===== */
+body {
+  margin: 0;
+}
+
+.title {
+  margin-top: 50px;
+  margin-bottom: 15px;
+  font-size: 22px;
+  color: rgb(0, 153, 224);
+}
+
+.item {
+  font-size: 20px;
+  text-align: center;
+  padding: 20px;
+  font-family: serif;
+}
+
+.item:nth-child(even) {
+  background: rgb(250, 136, 136);
+}
+
+.item:nth-child(odd) {
+  background: rgb(26, 180, 116);
+}
+
+[class^="flex"] {
+  background: rgb(241, 241, 241);
+}
+
+/*  =====  Flex1  ===== */
+.flex1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* ======   Flex2 ========= */
+.flex2 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.flex-test {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
