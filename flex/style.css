@@ -1,6 +1,7 @@
 /*  =====  Base classes ===== */
 body {
   margin: 0;
+  direction: rtl;
 }
 
 .title {

@@ -1,0 +1,9 @@
+.test {
+  border-radius: 94% 10% 10% 100% / 10% 68% 10% 62%;
+  height: 300px;
+  width: 200px;
+  background-color: brown;
+  color: aliceblue;
+  padding: 50px;
+  font-size: 25px;
+}
