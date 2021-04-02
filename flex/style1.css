@@ -1,0 +1,75 @@
+/*********** Base classes **********/
+body{
+    margin: 0;
+}
+
+.title{
+    font-family: serif;
+    color: rgb(0, 153, 224);
+    margin-left: 5px;
+    margin-top: 50px;
+}
+
+.item{
+    font-family: serif;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+}
+
+.item:nth-child(odd){
+    background-color: rgb(121, 200, 231);
+}
+
+.item:nth-child(even){
+    background-color: rgb(245, 160, 245);
+}
+
+.h1{
+    text-align: center;
+    margin-top: 0;
+}
+
+[id^= "flex"]{
+    background-color: #ddd;
+}
+/*************** Flex1 ***************/
+#flex1{
+    display: flex;
+}
+
+/*************** Flex2 **************/
+#flex2{
+    display: inline-flex;
+}
+
+/*************** Flex3 **************/
+#flex3{
+    display: flex;
+    flex-direction: row;
+}
+
+/*************** Flex4 **************/
+#flex4{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+/*************** Flex5 **************/
+#flex5{
+    display: flex;
+    flex-direction: column;
+}
+
+/*************** Flex6 **************/
+#flex6{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+/*************** Flex7 **************/
+#flex7{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
