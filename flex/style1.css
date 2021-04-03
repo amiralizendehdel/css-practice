@@ -73,3 +73,59 @@ body{
     flex-direction: row;
     flex-wrap: nowrap;
 }
+
+/*************** Flex8 **************/
+#flex8{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/*************** Flex9 **************/
+#flex9{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+}
+
+/*************** Flex10 **************/
+#flex10{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+/*************** Flex11 **************/
+#flex11{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+/*************** Flex12 **************/
+#flex12{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/*************** Flex13 **************/
+#flex13{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/*************** Flex14 **************/
+#flex14{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/*************** Flex15 **************/
+#flex15{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
