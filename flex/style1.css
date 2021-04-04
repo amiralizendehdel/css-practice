@@ -129,3 +129,43 @@ body{
     flex-direction: row;
     justify-content: space-evenly;
 }
+
+/*************** Flex16 **************/
+#flex16{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    height: 200px;
+}
+
+/*************** Flex17 **************/
+#flex17{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    height: 200px;
+}
+
+/*************** Flex18 **************/
+#flex18{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 200px;
+}
+
+/*************** Flex19 **************/
+#flex19{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    height: 200px;
+}
+
+/*************** Flex20 **************/
+#flex20{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    height: 200px;
+}
