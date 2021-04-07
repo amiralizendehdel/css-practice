@@ -17,6 +17,13 @@ body{
     padding: 20px;
 }
 
+.parent-item{
+    display: flex;
+    flex-direction: row;
+    height: 250px;
+    background-color: #ddd;
+}
+
 .a{
     width: 40%;
     margin: 5px;
@@ -236,6 +243,15 @@ body{
 
 /*************** Flex27 **************/
 #flex27{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 250px;
+    align-content: stretch;
+}
+
+/*************** Flex28 **************/
+#flex28{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
